@@ -1,12 +1,10 @@
-```json
 {
   "name": "multi-sheet-telegram-bot",
   "version": "1.0.0",
-  "description": "Telegram bot that reads multiple Google Sheets and answers questions with Claude AI",
+  "description": "Telegram bot that reads Google Sheets and analyzes data with Claude AI",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": "18.x"
@@ -21,4 +19,3 @@
     "telegraf": "^4.14.0"
   }
 }
-```
